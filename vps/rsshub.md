@@ -59,9 +59,8 @@ volumes:
 #### ACCESS_KEY
 https://docs.rsshub.app/deploy/config#access-control-configurations
 
-https://my.deploy/path?key=ACCESS_KEY
-or
-https://my.deploy/path?code=md5(path+ACCESS_KEY)
+- https://my.deploy/path?key=ACCESS_KEY
+- https://my.deploy/path?code=md5(path+ACCESS_KEY)
 
 Python:
 ```
