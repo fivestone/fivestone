@@ -1,3 +1,6 @@
+#### docker-compose.yml
+
+```
 services:
   postgres:
     image: postgres:14-alpine
@@ -18,3 +21,4 @@ services:
     restart: always
     ports:
       - 8080:8080
+```
